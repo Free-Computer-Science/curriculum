@@ -475,7 +475,209 @@ Lesson 26: Algorithm Efficiency and Big-O Notation
 ## Algorithms and Data Structures
 
     Summary: This course delves into the design, analysis, and implementation of algorithms and data structures. It builds on the programming and discrete math knowledge from previous courses, teaching students how to efficiently store, manipulate, and retrieve data.
+### Unit 1: Introduction to Algorithms and Data Structures
 
+Lesson 1: Introduction to Algorithms
+
+    Objective: Understand what an algorithm is and the importance of algorithms in problem-solving.
+    Content:
+        Definition of algorithms
+        Characteristics of a good algorithm (correctness, efficiency)
+        The role of algorithms in computer science
+
+Lesson 2: Introduction to Data Structures
+
+    Objective: Learn the concept of data structures and why they are essential for organizing data.
+    Content:
+        Definition and classification of data structures (primitive, non-primitive)
+        The importance of choosing the right data structure
+        Overview of linear vs. non-linear data structures
+
+Lesson 3: Algorithm Analysis and Big-O Notation
+
+    Objective: Understand how to analyze algorithms and measure their efficiency.
+    Content:
+        Introduction to time and space complexity
+        Big-O, Big-Theta, and Big-Omega notations
+        Worst-case, best-case, and average-case analysis
+
+### Unit 2: Fundamental Data Structures
+
+Lesson 4: Arrays and Lists
+
+    Objective: Learn about arrays and lists as fundamental data structures.
+    Content:
+        Static vs. dynamic arrays
+        Singly linked lists and doubly linked lists
+        Common operations: insertion, deletion, traversal
+
+Lesson 5: Stacks
+
+    Objective: Understand stacks and their applications in algorithms.
+    Content:
+        LIFO (Last In, First Out) structure
+        Implementation using arrays and linked lists
+        Applications: Function call stack, expression evaluation
+
+Lesson 6: Queues
+
+    Objective: Learn about queues and their various types and applications.
+    Content:
+        FIFO (First In, First Out) structure
+        Circular queues, priority queues
+        Applications: Task scheduling, buffering
+
+Lesson 7: Hash Tables
+
+    Objective: Explore hash tables and their use in efficient data storage.
+    Content:
+        Hash functions and collision resolution strategies
+        Chaining vs. open addressing
+        Applications: Caching, symbol tables
+
+### Unit 3: Trees and Hierarchical Data Structures
+
+Lesson 8: Trees and Tree Traversals
+
+    Objective: Understand the basic structure of trees and tree traversal algorithms.
+    Content:
+        Tree terminology (root, leaves, height, depth)
+        Binary trees and binary search trees (BST)
+        Traversal algorithms: In-order, pre-order, post-order
+
+Lesson 9: Binary Search Trees (BST)
+
+    Objective: Learn about the structure and operations of binary search trees.
+    Content:
+        Insertion, deletion, and searching in a BST
+        Time complexity of BST operations
+        Balanced vs. unbalanced trees
+
+Lesson 10: Heaps and Priority Queues
+
+    Objective: Understand the structure of heaps and their application in priority queues.
+    Content:
+        Binary heap: Min heap and max heap
+        Implementing priority queues using heaps
+        Applications: Dijkstra’s algorithm, task scheduling
+
+Lesson 11: Balanced Trees: AVL and Red-Black Trees
+
+    Objective: Explore the concept of balanced trees and their importance in maintaining efficient data structures.
+    Content:
+        AVL trees: Rotations, insertion, and deletion
+        Red-black trees: Properties and operations
+        Comparison of AVL and red-black trees in practice
+
+### Unit 4: Graphs and Graph Algorithms
+
+Lesson 12: Introduction to Graphs
+
+    Objective: Learn about graphs, their representation, and basic properties.
+    Content:
+        Graph terminology (vertices, edges, degree, connectivity)
+        Graph representation: Adjacency matrix, adjacency list
+        Directed vs. undirected graphs
+
+Lesson 13: Breadth-First Search (BFS)
+
+    Objective: Understand the BFS algorithm and its applications in graph traversal.
+    Content:
+        BFS algorithm implementation
+        Applications: Shortest path in unweighted graphs, network traversal
+        Time and space complexity of BFS
+
+Lesson 14: Depth-First Search (DFS)
+
+    Objective: Explore the DFS algorithm and its use in graph traversal.
+    Content:
+        DFS algorithm implementation
+        Applications: Topological sorting, cycle detection
+        Time and space complexity of DFS
+
+Lesson 15: Dijkstra’s Algorithm
+
+    Objective: Learn Dijkstra’s algorithm for finding the shortest path in weighted graphs.
+    Content:
+        Implementation using priority queues
+        Applications: Shortest path in road networks, routing algorithms
+        Time complexity of Dijkstra’s algorithm
+
+Lesson 16: Minimum Spanning Tree (MST): Kruskal’s and Prim’s Algorithms
+
+    Objective: Understand the concept of minimum spanning trees and algorithms to find them.
+    Content:
+        Kruskal’s algorithm using union-find
+        Prim’s algorithm using priority queues
+        Applications: Network design, clustering
+
+Lesson 17: Bellman-Ford Algorithm
+
+    Objective: Learn about the Bellman-Ford algorithm for finding shortest paths in graphs with negative weights.
+    Content:
+        Difference between Bellman-Ford and Dijkstra
+        Applications: Handling negative weight cycles
+        Time complexity and use cases
+
+### Unit 5: Advanced Data Structures and Algorithms
+
+Lesson 18: Dynamic Programming
+
+    Objective: Understand the concept of dynamic programming and its applications in optimizing recursive problems.
+    Content:
+        Overlapping subproblems and optimal substructure
+        Examples: Fibonacci, knapsack problem, longest common subsequence
+        Memoization vs. tabulation
+
+Lesson 19: Greedy Algorithms
+
+    Objective: Learn about greedy algorithms and their use in optimization problems.
+    Content:
+        Greedy choice property and optimal substructure
+        Examples: Fractional knapsack, activity selection, Huffman coding
+        Comparison of greedy vs. dynamic programming approaches
+
+Lesson 20: Divide and Conquer Algorithms
+
+    Objective: Explore divide and conquer as a strategy for algorithm design.
+    Content:
+        Examples: Merge sort, quick sort, binary search
+        Recursion tree method for analyzing time complexity
+        Applications of divide and conquer in algorithm design
+
+Lesson 21: Backtracking and Branch-and-Bound
+
+    Objective: Understand backtracking as a technique for solving constraint satisfaction problems.
+    Content:
+        Backtracking: N-Queens, Sudoku solver
+        Branch-and-bound: Knapsack problem, traveling salesman problem
+        Comparing backtracking with dynamic programming and greedy approaches
+
+Lesson 22: Advanced Graph Algorithms: Floyd-Warshall and Johnson’s Algorithm
+
+    Objective: Learn about advanced graph algorithms for solving all-pairs shortest path problems.
+    Content:
+        Floyd-Warshall algorithm: Dynamic programming approach
+        Johnson’s algorithm: Handling negative weights efficiently
+        Applications in network routing and analysis
+
+### Unit 6: Algorithmic Complexity and Optimization
+
+Lesson 23: NP-Completeness and Computational Intractability
+
+    Objective: Understand the concept of NP-complete problems and the limitations of algorithms.
+    Content:
+        P vs. NP, NP-hard, and NP-complete problems
+        Examples of NP-complete problems: SAT, traveling salesman, clique problem
+        Approximation algorithms for intractable problems
+
+Lesson 24: Approximation Algorithms
+
+    Objective: Learn strategies for designing approximation algorithms for NP-complete problems.
+    Content:
+        Approximation ratio and performance guarantees
+        Examples: Vertex cover, traveling salesman, set cover
+        Heuristics and probabilistic algorithms
 ## Introduction to Computer Systems
 
     Summary: Provides an overview of how computer systems operate, including the interaction between hardware and software. Topics include computer architecture, operating systems, and basic networking. This course lays the groundwork for understanding how programming languages interact with the underlying hardware.
