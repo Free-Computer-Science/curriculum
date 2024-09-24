@@ -1,0 +1,1 @@
+// Allocate memory dynamically for a string using malloc(), use the string, and then forget to free the memory. Write a second version of the program that correctly frees the allocated memory.

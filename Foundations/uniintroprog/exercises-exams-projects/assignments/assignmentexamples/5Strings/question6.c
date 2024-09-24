@@ -1,0 +1,1 @@
+// Write a program to search for a substring inside a string using strstr(). Print the position of the substring if found, or a message if not found.

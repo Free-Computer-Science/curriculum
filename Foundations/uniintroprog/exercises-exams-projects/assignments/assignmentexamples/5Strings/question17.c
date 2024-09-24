@@ -1,0 +1,1 @@
+// Use scanf() to read a string without providing a size limit and observe the potential buffer overflow. Fix it by using scanf("%99s", str) to limit the input size.

@@ -1,0 +1,1 @@
+// Write a function that creates an off-by-one error when working with a string (e.g., missing the null terminator). Debug the program and fix the error by correctly accounting for the array bounds.

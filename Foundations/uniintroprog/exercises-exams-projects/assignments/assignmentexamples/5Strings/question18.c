@@ -1,0 +1,1 @@
+// Demonstrate the problem of strncpy() not adding a null terminator if the string is truncated. Write code that manually adds the null terminator when using strncpy().

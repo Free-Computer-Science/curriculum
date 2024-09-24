@@ -1,0 +1,1 @@
+// Write a program that intentionally omits the null terminator from a string, and observe the effects when using string functions like strlen() and strcpy(). Fix the program to correctly handle the null terminator.

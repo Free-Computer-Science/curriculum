@@ -1,0 +1,1 @@
+// Write a program that copies a large string into a small buffer using strcpy() and observe the behavior. Then, modify it to safely copy only up to the size of the destination buffer using strncpy().
